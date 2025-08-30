@@ -1,0 +1,1 @@
+python main_zscl.py --train-mode=whole --iterations 5 --save ckpt/icalr --method=icarl --eval-interval 5 --loss-interval 5 --dataset_order=Aircraft,Caltech101,CIFAR100,DTD,EuroSAT,Flowers,Food,MNIST,OxfordPet,StanfordCars,SUN397 --few_shot=5 
